@@ -39,13 +39,13 @@ Here are some further challenges if you like.
 
 ## Extend the Project
 * Consider adding Sales Tax to the Line Items. 
-* Consider extending the system to also include Payments (Money received from a Customer) and Refunds (Money sent back to the Customer).
+* Consider including Payments (Money received) and Refunds.
 * Remember that the Statement must also include the Payments and Refunds to give an accurate Customer balance.
 
 
 ## Some further thoughts
 There are no right or wrong answers here, just things to think about as you work through this challenge.
 * Is it better to store
-* If you are developing using OOP - would a class called Transaction be a good parent for Invoice and Credit?
-* Does having a Transaction parent class force your Invoice or Credit class to have a method that doesn't make sense?
-* If the Invoice/Credit classes are forced to have a method that doesn't make sense - how does this break the SOLID principles?
+* If you are developing using OOP - would a class called Transaction be a good parent for Invoice and Credit? Would it also work well for Payments and Refunds (if you have added these)?
+* Does having a Transaction parent class force your Invoice/Credit or Payment/Refund classes to have a method that doesn't make sense?
+* If the Invoice/Credit or Payment/Refund classes are forced to have a method that doesn't make sense - how does this break the SOLID principles?
