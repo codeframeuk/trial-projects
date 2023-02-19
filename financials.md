@@ -36,7 +36,11 @@ These will be divided into:
     * Date
     * Type (Invoice / Credit)
     * Value (Invoices ADD to the balance, Credits REDUCE the balance)
-
+## Balances
+* A report showing what each customer owes
+* Report column headings are
+    * Customer
+    * Balance Owed
 ## Extra Points
 Here are some further challenges if you like.
 * Design a PDF format for the Invoice and Credit.
