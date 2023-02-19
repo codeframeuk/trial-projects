@@ -12,12 +12,12 @@ Here are our basic requirements
 * You'll need some form of data store
 
 ## Further Information
-### Customer Records
+## Customer Records
 We deal with businesses so we want to record
 * Company Name
 * Account Code (in the format AAANNN where A is an Alphanumeric and N is a Numeric eg ABC001)
 * Contact Email
-### Transaction : Invoices and Credits
+## Transaction : Invoices and Credits
 These will be divided into:
 #### Main Information
 * ID Number - must be unique
@@ -30,6 +30,12 @@ These will be divided into:
 * Unit Price
 #### Totals
 * Total value of Transaction
+## Statements
+* Statements are Customer-specific
+* Report column headings are
+    * Date
+    * Type (Invoice / Credit)
+    * Value (Invoices ADD to the balance, Credits REDUCE the balance)
 
 ## Extra Points
 Here are some further challenges if you like.
